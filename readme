@@ -1,0 +1,35 @@
+npm i -g @nestjs/cli
+nodejs>=10.13
+node --version
+nest new nestjs-project
+cd nestjs-project
+npm run start
+localhost:3000
+npm run start:dev
+//for generate controller
+nest g controller users
+// for generate module
+nest generate module employee
+nest g controller employee/roles
+//provider
+nest g service blogs
+*** third party module called (swagger)
+npm i class-validator
+npm install class-transformer
+
+npm i -D @types/multer
+npm i --save @nestjs/typeorm typeorm@0.2 mysql2
+
+npm i --save @nestjs/config
+nest g resource demo super-admin
+***GET ***
+http://localhost:3000/demo
+http://localhost:3000/users/blog-list
+http://localhost:3000/posts/post-list
+***POST***
+http://localhost:3000/posts/list/22444?id=11,33,2
+http://localhost:3000/posts/list/22444?id=11,33,2
+http://localhost:3000/posts/post-add
+***PATCH***
+
+***DELETE***
